@@ -12,7 +12,7 @@ int ledrojo = 13;
 
 
 void setup() {
-  //Activación de pines
+//Activación de pines
 pinMode(speedPin, OUTPUT);
 pinMode(dirPin1, OUTPUT);
 pinMode(dirPin2, OUTPUT);
