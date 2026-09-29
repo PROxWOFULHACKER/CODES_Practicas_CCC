@@ -2,12 +2,14 @@
 
 int ledRojo = 13; // Pin del LED rojo (puedes conectarlo al pin 13 o cambiar el número)
 int ledVerde = 12; // Pin del LED verde (puedes conectarlo al pin 12)
+int ledNaranja = 11; // Pin del LED Naranja
 int tiempoEspera = 1000; // Tiempo en milisegundos para el parpadeo (1 segundo)
 
 void setup() {
   // Configuramos el pin del LED como salida para poder enviarle voltaje
   pinMode(ledRojo, OUTPUT);
   pinMode(ledVerde, OUTPUT);
+  pinMode(ledNaranja, OUTPUT);
 }
 
 void loop() {
