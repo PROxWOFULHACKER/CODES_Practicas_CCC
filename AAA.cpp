@@ -37,5 +37,7 @@ void loop() {
     
     // *Nota: Si usas buzzer pasivo con tone():
     // noTone(pinBuzzer);
+      //Linea para hacer commit de prueba-BORRAR-
+  
   }
 }
